@@ -3,7 +3,7 @@ const createStore = redux.createStore
 
 const CAKE_ORDERED = "CAKE_ORDERED"
 
-// Action
+// Action creators
 function orderCake() {
   return {
     type: CAKE_ORDERED,
